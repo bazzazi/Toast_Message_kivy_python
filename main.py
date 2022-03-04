@@ -1,3 +1,18 @@
+
+###############          ##########        #######   #######        #########      #######       #
+#              #        #          #             #         #       #         #           #
+#               #       #          #            #         #        #         #          #        #
+#              #        #          #           #         #         #         #         #         #
+###############         ############          #         #          ###########        #          #
+#              #        #          #         #         #           #         #       #           #
+#               #       #          #        #         #            #         #      #            #
+#              #        #          #       #         #             #         #     #             #
+###############         #          #      #######    #######       #         #    #######        #
+
+# Developer: Mohammad Ali Bazzazi (me)
+
+########################### START ##########################
+
 # Import Libraries
 from kivymd.app import MDApp
 from kivymd.uix.button import MDRaisedButton
@@ -26,3 +41,4 @@ class MyToastMessageApp(MDApp):
 
 # Create class object
 MyToastMessageApp().run()
+########################### END ##########################
