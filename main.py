@@ -13,9 +13,9 @@ class MyToastMessageApp(MDApp):
                            font_size=32,
                            pos_hint={"center_x":0.5, "center_y":0.5})
 
-        # bind the button when the buttn clicked will run showToast method
+        # Bind the button when the button clicked will run showToast method
         btn.bind(on_release=self.showToast)
-        # return the button
+        # Return the button
         return btn
 
     def showToast(self, instance):
